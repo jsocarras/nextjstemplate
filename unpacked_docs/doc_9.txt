@@ -1,0 +1,7 @@
+Doc ID: bca642d2830341b71c8683cfa5e407b4c0034154
+Text: using ServiceStack; using ServiceStack.Web; using
+ServiceStack.Data; using ServiceStack.Html; using ServiceStack.Auth;
+using ServiceStack.Configuration;  [assembly:
+HostingStartup(typeof(MyApp.ConfigureAuthRepository))]  namespace
+MyApp;  public enum Department {     None,     Marketing,
+Accounts,     Legal,     HumanResources, }  // Custom ...

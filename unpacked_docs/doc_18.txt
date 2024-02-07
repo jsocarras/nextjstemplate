@@ -1,0 +1,7 @@
+Doc ID: dc02115b8b158de84becdd8e3e0813991de21840
+Text: import Link from "next/link" import { Icon } from
+"@iconify/react"  type Props = {     className?: string     name:
+string     href?: string     current?: boolean }  export default
+function Breadcrumbs({ className, name, href, current } : Props) {
+if (current == null) {         current = true;     }     let crumb =
+href          ? (<Link hre...

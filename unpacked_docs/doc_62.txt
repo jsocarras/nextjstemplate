@@ -1,0 +1,7 @@
+Doc ID: 78994c605ab23c2f55700af761adb0995e36f4f1
+Text: import React from "react" import { Icon } from "@iconify/react"
+import Page from "../components/layout-page" import { SecondaryButton,
+ValidateAuth } from "../components/form" import useAuth, {
+AuthenticatedContext } from "../lib/useAuth";  function Profile ({
+auth, signout }: AuthenticatedContext) {     return (<Page
+title={auth.displayName + '...

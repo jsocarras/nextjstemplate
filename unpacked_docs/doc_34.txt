@@ -1,0 +1,7 @@
+Doc ID: a7476a916a1758f3f301f219801d858c9fde5dd0
+Text: import Link from "next/link" import { useRouter } from
+"next/router" import useAuth from "../lib/useAuth" import {
+PrimaryButton, SecondaryButton } from "./form"  type NavItem = {
+href?:string,      name:string,      type?:string,     show?:string,
+hide?:string,     onClick?:(e:any) => void }  export default function
+() {      const ite...

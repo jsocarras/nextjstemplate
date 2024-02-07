@@ -1,0 +1,7 @@
+Doc ID: c96b8a05e2ca8d3f5d5330da8a3ea731d187dec5
+Text: import { Icon } from "@iconify/react" import { FC, MouseEvent,
+useState } from "react"  const ShellCommand: FC<any> = ({ className,
+children }) => {          let [successText, setSuccessText] =
+useState("")      function copy(e: MouseEvent) {         let $el =
+document.createElement("input")         let $lbl = (e.target as
+HTMLElement).parentEle...

@@ -1,0 +1,6 @@
+Doc ID: 1f93d975e5ee330aa357ee402848462b05dd59bb
+Text: using System; using ServiceStack; using MyApp.ServiceModel;
+namespace MyApp.ServiceInterface {     public class MyServices :
+Service     {         public object Any(Hello request)         {
+return new HelloResponse { Result = $"Hello, {request.Name}!" };
+}     } }

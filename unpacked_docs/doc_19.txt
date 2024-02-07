@@ -1,0 +1,5 @@
+Doc ID: 342e0ad44e8d4bcd32cb46724d8b75440c55bab5
+Text: import { FC, PropsWithChildren } from "react"  const Container:
+FC<PropsWithChildren> = ({ children }) => {   return <div
+className="container mx-auto px-5">{children}</div> }  export default
+Container

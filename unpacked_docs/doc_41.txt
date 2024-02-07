@@ -1,0 +1,7 @@
+Doc ID: bd7133cd8ea21fe3090c44ffe35bc0c749fda890
+Text: import React from "react"; import { lastRightPart } from
+"@servicestack/client";  type SrcLink = {     href:string
+iconSrc?:string     children?: React.ReactNode } export default
+function SrcLink({ href, iconSrc, children } : SrcLink) {     const
+fileName = lastRightPart(href, '/')     return iconSrc          ? (<a
+href={href} className="mr-...

@@ -1,0 +1,7 @@
+Doc ID: 4b5b45feb7d69d41d67386de2f96b6732cf2e3b2
+Text: import { ChangeEvent, useEffect, useState } from "react" import
+ShellCommand from "./shell-command"  export const GettingStarted = ()
+=> {     let [project, setProject] = useState('ProjectName')     let
+[apiPath, setApiPath] = useState(`api/${project}`)     const
+handleChange = (e:ChangeEvent<HTMLInputElement>) =>
+setProject(e.target.value.repla...

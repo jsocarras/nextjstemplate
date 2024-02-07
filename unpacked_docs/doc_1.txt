@@ -1,0 +1,7 @@
+Doc ID: cedad1bb51eb658f552e9cbd7b0449cf12bd2d4b
+Text: ﻿using System; using System.Linq; using ServiceStack; using
+MyApp.ServiceModel;  namespace MyApp.ServiceInterface;  public class
+TodosServices : Service {     public IAutoQueryData AutoQuery { get;
+set; }      static readonly PocoDataSource<Todo> Todos =
+PocoDataSource.Create(new Todo[]     {         new () { Id = 1, Text =
+"Learn" },         ne...

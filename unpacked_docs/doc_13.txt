@@ -1,0 +1,7 @@
+Doc ID: 26dbec6636d5823fade21ae8f4b1d758648ea2ba
+Text: using ServiceStack; using ServiceStack.DataAnnotations; using
+ServiceStack.OrmLite;  namespace MyApp.Migrations;  public class
+Migration1000 : MigrationBase {     public class Booking : AuditBase
+{         [AutoIncrement]         public int Id { get; set; }
+public string Name { get; set; }         public RoomType RoomType {
+get; set;...

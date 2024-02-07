@@ -1,0 +1,7 @@
+Doc ID: c1c530b48d438e0ed9471cb2029b070fcd3636cf
+Text: import { dateFmt, toDate, toDateFmt } from
+"@servicestack/client"  const formatter = new Intl.NumberFormat('en-
+US', {     style: 'currency',     currency: 'USD', }) export const
+formatCurrency = (n?:number) => n ? formatter.format(n) : '' export
+const formatDate = (s?:string) => s ? toDateFmt(s) : ''  export const
+dateInputFormat = (d:Date) => d...

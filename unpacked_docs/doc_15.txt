@@ -1,0 +1,2 @@
+Doc ID: e1b76b54f7e1edb76b253fcdbcd509989dc7300c
+Text: declare module 'remark-html'

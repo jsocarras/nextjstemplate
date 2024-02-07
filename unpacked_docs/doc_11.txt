@@ -1,0 +1,7 @@
+Doc ID: 022ca6081ebb78e5baf8243c6837eeb05c9d8786
+Text: using ServiceStack; using ServiceStack.Data; using
+ServiceStack.OrmLite; using MyApp.Migrations;  [assembly:
+HostingStartup(typeof(MyApp.ConfigureDbMigrations))]  namespace MyApp;
+// Code-First DB Migrations: https://docs.servicestack.net/ormlite/db-
+migrations public class ConfigureDbMigrations : IHostingStartup {
+public void Configure(IWeb...

@@ -1,0 +1,6 @@
+Doc ID: 4476fbdcbe07963210e1de85171dbf0cfe303cc9
+Text: import Document, { Html, Head, Main, NextScript } from
+"next/document"  export default class MyDocument extends Document {
+render() {     return (       <Html lang="en">         <Head />
+<body>           <Main />           <NextScript />         </body>
+</Html>     )   } }

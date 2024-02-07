@@ -1,0 +1,7 @@
+Doc ID: 42ed990f9a1c6bf4ae129dbae68d129d84e42ad5
+Text: <script> (function (){     let apis = {         QueryTodos:
+'Query Todos, returns all Todos by default',         CreateTodo:
+'Create a Todo',         UpdateTodo:  'Update a Todo',
+DeleteTodo:  'Delete Todo by Id',         DeleteTodos: 'Delete
+multiple Todos by Ids',     }     let apiNames = Object.keys(apis)
+function TodosDocs({ op...

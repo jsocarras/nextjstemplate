@@ -1,0 +1,3 @@
+Doc ID: 33ad091d26d8a9dc95ebdf616e217d985ec215b8
+Text: module.exports = {   plugins: {     tailwindcss: {},
+autoprefixer: {},   }, }

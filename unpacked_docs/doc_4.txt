@@ -1,0 +1,7 @@
+Doc ID: 274b60c77628482676105749fa705e99756f44c2
+Text: ﻿using ServiceStack; using ServiceStack.Model; using
+System.Collections.Generic;  namespace MyApp.ServiceModel;
+[Tag("todos")] [Route("/todos", "GET")] public class QueryTodos :
+QueryData<Todo> {     public int? Id { get; set; }     public
+List<long>? Ids { get; set; }     public string? TextContains { get;
+set; } }  [Tag("todos")] [Route("/tod...

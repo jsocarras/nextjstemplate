@@ -1,0 +1,7 @@
+Doc ID: b6485915fc68f1b3d57dfc22a8ae110575d06293
+Text: import {     appendQueryString,     nameOf,     IReturn,
+ApiResult,     ApiRequest,     IReturnVoid,     EmptyResponse,
+ResponseError,     ResponseStatus,     JsonServiceClient,
+MetadataTypes, combinePaths, createErrorStatus, } from
+"@servicestack/client" import { createContext, useState } from "react"
+import useSWR from "swr"  export co...

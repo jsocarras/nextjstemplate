@@ -1,0 +1,7 @@
+Doc ID: 16c6a8aa293ff81d79a4d302658b459d750ba6ad
+Text: export default () => {     return (<>         <div
+className="text-black bg-white h-screen text-center flex flex-col
+items-center justify-center">             <div>                 <h1
+className="inline-block border-gray-300 border-r m-0 mr-5 py-2 pr-4
+text-2xl font-medium align-top">403</h1>                 <div
+className="inline-block text-lef...

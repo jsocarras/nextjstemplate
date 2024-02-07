@@ -1,0 +1,7 @@
+Doc ID: 42ccbdc955da99945a0b7b7b9378dff786faedef
+Text: import Layout from "../components/layout-article" import { Icon
+} from "@iconify/react"  export const meta = {   title: 'Hosting
+Costs' }  export default ({ children }) => <Layout
+{...meta}>{children}</Layout>  <a href="https://jamstack.org">
+<Icon icon="logos:jamstack-icon" className="w-14 h-14 float-left mt-2
+mr-4" /> </a>  The modern [jam...

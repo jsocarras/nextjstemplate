@@ -1,0 +1,6 @@
+Doc ID: 585a44de7d9cb4217dd45cccf4a046d53843455a
+Text: @tailwind base;  /* Write your own custom base styles here */
+/* Start purging... */ @tailwind components; /* Stop purging. */  /*
+Write you own custom component styles here */  /* Start purging... */
+@tailwind utilities; /* Stop purging. */  /* Your own custom utilities
+*/

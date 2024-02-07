@@ -1,0 +1,7 @@
+Doc ID: 19dfd8882340a603ba16ba8a75f26850a67cfe2c
+Text: const defaultTheme = require('tailwindcss/defaultTheme')
+module.exports = {   content: ['./components/**/*.tsx',
+'./pages/**/*.{tsx,mdx,md}', './_posts/**/*.md'],   theme: {
+extend: {       colors: {         'accent-1': '#FAFAFA',
+'accent-2': '#EAEAEA',         'accent-7': '#333',         success:
+'#0070f3',         cyan: '#79FFE1',...

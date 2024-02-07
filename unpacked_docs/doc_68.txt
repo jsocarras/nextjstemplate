@@ -1,0 +1,7 @@
+Doc ID: 06b6cb0ebcfbb767e66ead7224a3c67200ba811d
+Text: <script>App.components({ CreateBookingDocs: '#create-booking-
+docs' })</script> <template id="create-booking-docs"> <div
+class="text-center my-3">     <div class="flex justify-center">
+<svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0
+48 48">             <path fill="#CFD8DC" d="M5 38V14h38v24c0 2.2-1.8
+4-4 4H9c-2.2 0-...

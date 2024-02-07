@@ -1,0 +1,7 @@
+Doc ID: 7417bbc9b927f1fe399222f36d7507951d5cd1a5
+Text: ﻿// Complete declarative AutoQuery services for Bookings CRUD
+example: // https://docs.servicestack.net/autoquery-crud-bookings
+using System; using ServiceStack; using ServiceStack.DataAnnotations;
+namespace MyApp.ServiceModel;  [Description("Booking Details")]
+[Notes("Captures a Persons Name & Room Booking information")] public
+class Booking ...

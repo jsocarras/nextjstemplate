@@ -1,0 +1,7 @@
+Doc ID: bad79e276abdbad70f063bba2ba32d7c5c7e337d
+Text: import Layout from "../components/layout-article"  export const
+meta = {   title: 'Template Features' }  export default ({ children })
+=> <Layout {...meta}>{children}</Layout>  This template contains our
+essential recommendations for a modern Vue Single Page App optimal for
+both  productivity and performance.  ||| |-|-| |
+[Next.js](https://nextj...

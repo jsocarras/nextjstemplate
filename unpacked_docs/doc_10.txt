@@ -1,0 +1,7 @@
+Doc ID: 7d5ddf497fb26088f5291b7a526c6561a65e7c99
+Text: using ServiceStack; using ServiceStack.Data;  [assembly:
+HostingStartup(typeof(MyApp.ConfigureAutoQuery))]  namespace MyApp;
+public class ConfigureAutoQuery : IHostingStartup {     public void
+Configure(IWebHostBuilder builder) => builder
+.ConfigureServices(services => {             // Enable Audit History
+services.AddSingle...

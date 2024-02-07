@@ -1,0 +1,7 @@
+Doc ID: e69b14de753d6de6187e2d9059cccfe9381114ea
+Text: import cn from "classnames" import Link from "next/link"  type
+Props = {   title: string   src: string   slug?: string }  const
+CoverImage = ({ title, src, slug }: Props) => {   const image = (
+<img       src={src}       alt={`Cover Image for ${title}`}
+className={cn('shadow-small', {         'hover:shadow-medium
+transition-shadow dura...

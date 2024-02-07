@@ -1,0 +1,7 @@
+Doc ID: 8fef3dcda2bd12df774bcc2a0258fa5c7e6730b6
+Text: using Microsoft.AspNetCore.Hosting; using ServiceStack; using
+ServiceStack.Auth; using ServiceStack.FluentValidation;  [assembly:
+HostingStartup(typeof(MyApp.ConfigureAuth))]  namespace MyApp;  // Add
+any additional metadata properties you want to store in the Users
+Typed Session public class CustomUserSession : AuthUserSession { }  //
+Custom Va...

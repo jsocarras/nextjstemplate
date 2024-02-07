@@ -1,0 +1,7 @@
+Doc ID: f75cb3f39d7c762b99bab4541d8f566e5b31eecd
+Text: import Router from "next/router" import useSWR, { KeyedMutator,
+useSWRConfig } from "swr" import { client } from "./gateway" import {
+Authenticate, AuthenticateResponse } from "./dtos"  const KEY =
+"/api/Authenticate"  export type AuthContext = {   signedIn: boolean
+attrs: string[]   loading: boolean   signout: (redirectTo?:string) =>
+void   r...

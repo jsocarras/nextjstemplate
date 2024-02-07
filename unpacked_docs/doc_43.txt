@@ -1,0 +1,6 @@
+Doc ID: d0dbbd103524ddd4684af906e5038ebb1a258610
+Text: export const EXAMPLE_PATH = 'blog-starter-typescript' export
+const CMS_NAME = 'Markdown' export const HOME_OG_IMAGE_URL =
+'https://og-image.vercel.app/Next.js%20Blog%20Starter%20Example.png?th
+eme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2
+Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg'

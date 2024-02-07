@@ -1,0 +1,6 @@
+Doc ID: 314fcde5b6f1d657a27d1848984d3122560cef96
+Text: import { AppProps } from "next/app" import "../styles/index.css"
+import "../styles/main.css"  import { useApp } from "../lib/gateway"
+import { useEffect } from "react";  export default function MyApp({
+Component, pageProps }: AppProps) {   useEffect(() => {     (async ()
+=> useApp().load())()   }, [])   return <Component {...pageProps} /> }

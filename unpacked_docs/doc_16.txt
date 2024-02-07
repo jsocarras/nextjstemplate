@@ -1,0 +1,7 @@
+Doc ID: 0a9633fbfbbb9236e56943d09e2eeaea59ebba09
+Text: import Container from "./container" import cn from "classnames"
+import { EXAMPLE_PATH } from "../lib/constants"  type Props = {
+preview?: boolean }  const Alert = ({ preview }: Props) => {   return
+(     <div       className={cn('border-b', {         'bg-accent-7
+border-accent-7 text-white': preview,         'bg-accent-1 border-
+accent-2': !pre...

@@ -1,0 +1,7 @@
+Doc ID: 3ee377b5f07746f7f36d69b2507c37c5e7bf6c20
+Text: import React, { MouseEventHandler, useEffect, useState } from
+"react" import Page from "../../components/layout-page" import {
+OutlineButton, ValidateAuth } from "../../components/form"  import
+Create from "./create" import Edit from "./edit" import { Booking,
+QueryBookings } from "../../lib/dtos" import { Icon } from
+"@iconify/react"; import { ...

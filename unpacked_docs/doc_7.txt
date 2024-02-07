@@ -1,0 +1,7 @@
+Doc ID: 4b35463c7e21b0822effd9c97c9b0530460059fe
+Text: using Funq; using ServiceStack; using MyApp.ServiceInterface;
+[assembly: HostingStartup(typeof(MyApp.AppHost))]  namespace MyApp;
+public class AppHost : AppHostBase, IHostingStartup {     public void
+Configure(IWebHostBuilder builder) => builder
+.ConfigureServices((context, services) => {
+services.ConfigureNonBreakingSameSi...

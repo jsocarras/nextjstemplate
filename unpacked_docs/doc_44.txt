@@ -1,0 +1,7 @@
+Doc ID: ffd91ccc484b087da20bcc3bbe4471be4348e43f
+Text: /* Options: Date: 2021-12-21 13:29:52 Version: 5.133 Tip: To
+override a DTO option, remove "//" prefix before updating BaseUrl:
+https://localhost:5001  //GlobalNamespace:  MakePropertiesOptional:
+True //AddServiceStackTypes: True //AddResponseStatus: False
+//AddImplicitVersion:  //AddDescriptionAsComments: True
+//IncludeTypes:  //ExcludeTypes:  ...

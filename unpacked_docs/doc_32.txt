@@ -1,0 +1,7 @@
+Doc ID: 2ff0d25423349ba3c490d979c578c2e8bf232453
+Text: import Head from "next/head" import { CMS_NAME,
+HOME_OG_IMAGE_URL } from "../lib/constants"  const Meta = () => {
+return (     <Head>       <link         rel="apple-touch-icon"
+sizes="180x180"         href="/favicon/apple-touch-icon.png"       />
+<link         rel="icon"         type="image/png"
+sizes="32x32"         href...

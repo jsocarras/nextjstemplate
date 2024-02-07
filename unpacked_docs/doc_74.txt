@@ -1,0 +1,5 @@
+Doc ID: a5f7bb91dd1a483858b9ba08a4100998dd9b8968
+Text: import Author from './author'  type PostType = {   slug: string
+title: string   date: string   coverImage: string   author: Author
+excerpt: string   ogImage: {     url: string   }   content: string }
+export default PostType

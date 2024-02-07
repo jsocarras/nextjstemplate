@@ -1,0 +1,7 @@
+Doc ID: 2b1ad5ded8e21451037e2ad5fce3eeca4d288152
+Text: import { ChangeEvent, useState } from "react" import { CMS_NAME
+} from "../lib/constants" import { swrClient } from "../lib/gateway"
+import { Hello } from "../lib/dtos"  const HelloApi = ({ name }:any)
+=> {   const { data, error } = swrClient.get(() => new Hello({ name
+}))   if (error) return <div className="ml-2 text-
+red-500">{error.message}</d...

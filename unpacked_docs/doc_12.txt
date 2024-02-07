@@ -1,0 +1,7 @@
+Doc ID: 84c85b8bdcc88fdb34c2e4fc4ffa86f1f4efbe46
+Text: using ServiceStack.Data; using ServiceStack.OrmLite;  [assembly:
+HostingStartup(typeof(MyApp.ConfigureDb))]  namespace MyApp;  //
+Database can be created with "dotnet run --AppTasks=migrate"    public
+class ConfigureDb : IHostingStartup {     public void
+Configure(IWebHostBuilder builder) => builder
+.ConfigureServices((context,services) ...

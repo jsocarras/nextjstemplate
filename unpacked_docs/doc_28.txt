@@ -1,0 +1,7 @@
+Doc ID: 7845ba2b44f1dc0bb7d6adb01366b75828416259
+Text: import { FC } from "react" import Head from "next/head" import
+Nav from "./nav" import Footer from "./footer" import Meta from
+"./meta" import Breadcrumbs from "./breadcrumbs"  type Props = {
+title: string,   children: React.ReactNode }  const Page: FC<Props> =
+({ title, children }) => {   return (     <>       <Meta />
+<Head>         <t...

@@ -1,0 +1,7 @@
+Doc ID: 4d2ae23fb2411b32dca6daeae643f53c51d22346
+Text: import { Icon } from "@iconify/react" import React from "react"
+import Page from "../components/layout-page" import { SecondaryButton,
+ValidateAuth } from "../components/form" import { AuthenticatedContext
+} from "../lib/useAuth"  function Admin ({ auth, signout }:
+AuthenticatedContext) {     return (<Page title="Admin Page">
+<div classN...
