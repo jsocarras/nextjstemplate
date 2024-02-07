@@ -28,5 +28,15 @@ namespace MyApp.Tests
 
             Assert.That(response.Result, Is.EqualTo("Hello, World!"));
         }
+
+        [Test]
+        public void Can_render_home_page()
+        {
+            var service = appHost.Container.Resolve<MyServices>();
+
+            var response = service.Any(new Hello { Name = "Home" });
+
+            Assert.That(response.Result, Is.EqualTo("Hello, Home!"));
+        }
     }
 }
