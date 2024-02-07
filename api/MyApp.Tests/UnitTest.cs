@@ -38,5 +38,20 @@ namespace MyApp.Tests
 
             Assert.That(response.Result, Is.EqualTo("Hello, Home!"));
         }
+
+        [Test]
+        public void Home_page_renders_quickly()
+        {
+            var service = appHost.Container.Resolve<MyServices>();
+
+            var stopwatch = new System.Diagnostics.Stopwatch();
+            stopwatch.Start();
+
+            var response = service.Any(new Hello { Name = "Home" });
+
+            stopwatch.Stop();
+
+            Assert.That(stopwatch.ElapsedMilliseconds, Is.LessThan(200));
+        }
     }
 }
